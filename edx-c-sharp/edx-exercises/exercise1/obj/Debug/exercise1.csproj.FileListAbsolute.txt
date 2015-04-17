@@ -1,0 +1,9 @@
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\bin\Debug\exercise1.exe.config
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\obj\Debug\exercise1.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\bin\Debug\exercise1.exe
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\bin\Debug\exercise1.pdb
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\obj\Debug\exercise1.exe
+c:\users\chris\documents\visual studio 2013\Projects\edx-exercises\exercise1\obj\Debug\exercise1.pdb
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise1\bin\Debug\exercise1.exe.config
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise1\obj\Debug\exercise1.exe
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise1\obj\Debug\exercise1.pdb

@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\bin\RecordStore.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\bin\RecordStore.dll
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\bin\RecordStore.pdb
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\obj\Debug\RecordStore.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\obj\Debug\RecordStore.dll
+c:\users\chris\documents\visual studio 2013\Projects\RecordStoreDemo\RecordStore\obj\Debug\RecordStore.pdb

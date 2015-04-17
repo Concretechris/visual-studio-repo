@@ -1,0 +1,325 @@
+Data Types (CS-ASP-007)
+====================
+
+Comments: // Single line .... /* Multiline */
+
+string => alphanumeric (defaults to "")
+int => 2 billion to -2 billion (defaults to 0)
+double => fractional value (defaults to 0.0)
+bool => true or false (defaults to false)
+
+More: http://is.gd/data_types
+
+
+
+Data Type Conversion (CS-ASP-008)
+=================================
+
+Implicit conversions - smaller type to a larger type without any data loss, upcasting
+
+Explicit conversions - require developer intervention, possibility of data loss, "downcasting", either in the form of casting or using a helper method.
+
+Casting numbers:
+int myInteger = (int)myDouble;
+
+Numbers to strings:
+string myString = myInteger.ToString();
+
+Strings to numbers:
+int myInteger = int.Parse(myString);
+
+More: http://is.gd/datatype_conversion
+
+
+Arithmetic Operators (CS-ASP-009)
+=================================
+
+= NOT equality, it's assignment
+
+Math operators: + - * /
+
+Addition Assignment
+total = total + 5;
+total += 5;
+
+Increment Operator: i++;
+Decrement Operator: i--;
+
+Beware of order of precedence (use paranthesis)
+Beware of down casting (you'll lose precision)
+Beware of overflow (use bigger types)
+
+To make overflow throw an exception:
+
+checked
+	{
+	// some arithmetic operation
+	// that could overflow
+	}
+
+C# Syntax (CS-ASP-010)
+======================
+Operands = variable names, object/server control names, literals (nouns), for the most part you create the names for operands
+
+Operators = "Verbs....they act on the operands
+
+http://is.gd/operators
+
+Expressions - One or more operands and zero or more operators that evaluate to a single value. 
+
+http://is.gd/expressions
+
+
+Statements = A complete instruction - assignment of an expression to a variable, an increment/decrement, etc.
+
+http://is.gd/statemetn
+
+Statements must end in a semicolon;
+Whitespace is ignored (more human readable)
+
+
+Conditional if .... else if ... else Statement (CS-ASP-011)
+===========================================================
+
+= Assignment
+== Equality
+
+if (a == b)
+{
+	// executes when the expression is true
+}
+else
+{
+	// executes when the expression is false
+}
+
+...or... evaluate other mutually exclusively options:
+
+if (a == b) { //some code}
+else if (a == c) { //then some more code}
+else if (a == d) { //more code options}
+else { //catch all}
+
+CheckBox Server Control = Checked prop is bool
+RadioButton Server Control = GroupName prop groups them together, check prop is bool 
+
+
+Conditional Ternary Operator (CS-ASP_012)
+========================================
+Shortcut for evaluating an expression and returning a result
+result = (a ==b) ? "Equal" : "Not Equal";
+
+Comparison and Logical Operators (CS-ASP-013)
+=============================================
+
+Comparison Operators
+used for conditional statements
+==
+!=
+<
+>
+<=
+>=
+!someBooleanValue = means NOT true
+
+Logical Operators
+used to combine multiple expressions for evaluation
+
+&& - Logical And
+|| - Logical Or
+
+Combine with parenthesis () for order of precedence. 
+
+Working with Dates and Times (CS-ASP-014)
+=========================================
+
+Creating new DateTime objects
+DateTime myDateTime = DateTime.Now;
+DateTime myDateTime = DateTime("12/7/1969");
+
+Formatting .... many options:
+myDateTime.To___(); lots of ways to format this. 
+
+Retrieving parts:
+myDateTime.Year // int
+myDateTime.Hour // int
+myDateTime.DayOfWeek // "Monday" 
+myDateTime.DayOfYear // int; 175
+
+DateTime Math:
+myDateTime.AddHour(3);
+myDateTime.AddMinute(-5);
+
+"Chaining" = using multiple helper methods together with the dot . operator. 
+myDateTime.AddHour(3).AddMinute(-5).ToString();
+
+Working with Spans of Time (CS-ASP-015)
+======================================
+
+Create and initialize new TimeSpans
+
+// Days.Hours:Minutes:Seconds.Milliseconds
+TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5") //1 day, 2 hours, 3 minutes and 30.5 seconds. 
+
+DateTime myBirthday = DateTime.Parse("12/7/1969");
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+
+//More info at http://is.gd/timespan
+
+Get individual parts of a TimeSpan
+myAge.Hours
+myAge.Seconds
+
+.... or get Total elapsed time as a double representing both the number of hours, days, etc. and fractional values representing any remainders. 
+
+myTimeSpan.TotalDays //double 
+myTimeSpan.TotalHours //double 
+
+Working with the Calendar Server Control (CS-ASP-016)
+
+Get the selected date:
+resultLabel.Text = myCalendar.SelectedDate.ToShortDateString();
+
+Set the current date programmatically:
+myCalendar.SelectedDate = DateTime.Parse("2/28/2015");
+
+Set Visible date:
+myCalender.VisibleDate = DateTime.Parse("12/7/1969");
+
+Select a Week:
+Use Properties to change the selection mode
+
+To show selected week:
+resultLabel.Text = "Week of " + myCalender.SelectedDate.ToShortDateString();
+
+Display selected date using a postback to the server:
+Select SelectionChanged event for calendar and 
+resultLabel.Text = myCalendar.SelectedDate.ToShortDateString();
+
+Page_Load and Page.IsPostBack (CS-ASP-017)
+==========================================
+
+Page_Load
+Often used to set initial values for variables when the page loads.
+
+Page.IsPostBack
+Can be used to determine if the page is being loaded for the first time or in response to some action. 
+
+Ex: 
+if (!Page.IsPostBack)
+{
+	myTextBox.Text = "Some Value";
+
+}
+
+Formatting Strings (CS-ASP-019)
+===============================
+
+Concatenate Strings
++ or +=
+
+or 
+
+Format Strings using Variables
+String.Format("Hello {0}. You are from {1}", "Bob", "Chicago")
+
+Format Numbers
+String.Form("Reference Code: {0:000_000-0}", 1234567)
+//Returns Reference Code: 123_456-7
+
+Formatting Dates
+http://is.gd/formattingdates
+String.Format("Reference Date: {0:ddd - d, MM, YYYY}", someDate)
+//Returns Reference Date: Tue - 5, 07, 2014
+
+Formatting Currency
+http://is.gd/formattingcurrency
+String.Format("Total: {0:C}", totalAmount);
+//Returns $50,000.00
+
+Single Dimensional ARrays (CS-ASP-021)
+=====================================
+
+Indexes vs. Elements
+Accessor vs. Stored Values
+Indexes are zero based
+
+Declaring Arrays
+string[] myArray = new string[3];
+
+Declaring and Initializing Arrays
+string[] myArray = new string[3] {"Moe, "Larry", "Curly"}
+
+Setting/Getting Vales
+string MyArray = myArray[1] //Retrieves the second array
+myArray[0] = myString; //Sets first element of the array
+
+Multi-dimenstional Array (CS-ASP-022)
+=====================================
+
+Same as single dimensionsal...just requires
+more indexes (in dimensions) to get to the element
+
+double[,] myArray = new double[2,3]; // contains six elments
+int[,,] rubicsCube = new int[3,3,3]; //contains 27 elements
+
+rubicsCube[0,1,2] = 42;
+myInteger = rubicsCube[0,1,2];
+
+Changing the length of an array (CS-ASP-023)
+===========================================
+
+Arrays are immutable which means that they cannot be changed in memory
+However, the .NET framework provides helper methods to resize an array...
+creates a new array and copies values into it. 
+
+Array.Resize(ref myArray, myArray.Length + 1);
+
+// Get the highest index:
+int highestIndex = myArray.GetUpperBound(0) //0 is the dimension
+
+// Arrays have other helper methods
+myArray.sum()
+myArray.Min()
+myArray.Max()
+myArray.Avg()
+myArray.Sort()
+myArray.Reverse()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

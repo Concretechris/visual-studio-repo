@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\obj\Debug\PapaBobsPizza.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\bin\PapaBobsPizza.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\bin\PapaBobsPizza.dll
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\bin\PapaBobsPizza.pdb
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\obj\Debug\PapaBobsPizza.dll
+c:\users\chris\documents\visual studio 2013\Projects\PapaBobsPizza\PapaBobsPizza\obj\Debug\PapaBobsPizza.pdb

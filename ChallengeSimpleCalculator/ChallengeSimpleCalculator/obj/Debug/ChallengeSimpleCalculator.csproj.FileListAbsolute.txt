@@ -1,0 +1,5 @@
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeSimpleCalculator\ChallengeSimpleCalculator\bin\ChallengeSimpleCalculator.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeSimpleCalculator\ChallengeSimpleCalculator\bin\ChallengeSimpleCalculator.dll
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeSimpleCalculator\ChallengeSimpleCalculator\bin\ChallengeSimpleCalculator.pdb
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeSimpleCalculator\ChallengeSimpleCalculator\obj\Debug\ChallengeSimpleCalculator.dll
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeSimpleCalculator\ChallengeSimpleCalculator\obj\Debug\ChallengeSimpleCalculator.pdb

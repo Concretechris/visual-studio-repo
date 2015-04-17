@@ -1,0 +1,8 @@
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\obj\Debug\Note_Taking_Challenge.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\bin\Note_Taking_Challenge.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\bin\Note_Taking_Challenge.dll
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\bin\Note_Taking_Challenge.pdb
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\obj\Debug\Note_Taking_Challenge.dll
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\obj\Debug\Note_Taking_Challenge.pdb
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\obj\Debug\Note_Taking_Challenge.Properties.Resources.resources
+c:\users\chris\documents\visual studio 2013\Projects\Note_Taking_Challenge\Note_Taking_Challenge\obj\Debug\Note_Taking_Challenge.csproj.GenerateResource.Cache

@@ -1,0 +1,6 @@
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\bin\Debug\exercise 2 - Chess Board.exe.config
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\bin\Debug\exercise 2 - Chess Board.exe
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\bin\Debug\exercise 2 - Chess Board.pdb
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\obj\Debug\exercise 2 - Chess Board.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\obj\Debug\exercise 2 - Chess Board.exe
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\exercise 2 - Chess Board\obj\Debug\exercise 2 - Chess Board.pdb

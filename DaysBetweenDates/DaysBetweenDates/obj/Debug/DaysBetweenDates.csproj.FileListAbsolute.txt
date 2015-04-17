@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\bin\DaysBetweenDates.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\bin\DaysBetweenDates.dll
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\bin\DaysBetweenDates.pdb
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\obj\Debug\DaysBetweenDates.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\obj\Debug\DaysBetweenDates.dll
+c:\users\chris\documents\visual studio 2013\Projects\DaysBetweenDates\DaysBetweenDates\obj\Debug\DaysBetweenDates.pdb

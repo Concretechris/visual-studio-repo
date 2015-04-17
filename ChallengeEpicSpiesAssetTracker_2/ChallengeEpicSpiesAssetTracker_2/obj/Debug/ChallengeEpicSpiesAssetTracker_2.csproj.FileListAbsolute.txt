@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\bin\ChallengeEpicSpiesAssetTracker_2.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\bin\ChallengeEpicSpiesAssetTracker_2.dll
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\bin\ChallengeEpicSpiesAssetTracker_2.pdb
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\obj\Debug\ChallengeEpicSpiesAssetTracker_2.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\obj\Debug\ChallengeEpicSpiesAssetTracker_2.dll
+c:\users\chris\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssetTracker_2\ChallengeEpicSpiesAssetTracker_2\obj\Debug\ChallengeEpicSpiesAssetTracker_2.pdb

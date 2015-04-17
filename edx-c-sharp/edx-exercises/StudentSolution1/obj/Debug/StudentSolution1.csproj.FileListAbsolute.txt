@@ -1,0 +1,5 @@
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\StudentSolution1\bin\Debug\StudentSolution1.exe.config
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\StudentSolution1\bin\Debug\StudentSolution1.exe
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\StudentSolution1\bin\Debug\StudentSolution1.pdb
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\StudentSolution1\obj\Debug\StudentSolution1.exe
+C:\Users\Chris\Documents\Visual Studio 2013\Projects\edx-c-sharp\edx-exercises\StudentSolution1\obj\Debug\StudentSolution1.pdb
