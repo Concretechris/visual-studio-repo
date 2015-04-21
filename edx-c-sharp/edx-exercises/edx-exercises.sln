@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise1", "exercise1\exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise 2 - Chess Board", "exercise 2 - Chess Board\exercise 2 - Chess Board.csproj", "{1A73FBE5-B341-4539-AB4C-886DFFB3F4DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise3 - structs", "ConsoleApplication1\exercise3 - structs.csproj", "{7D46452A-70AF-4020-A889-FC96EC508941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A73FBE5-B341-4539-AB4C-886DFFB3F4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A73FBE5-B341-4539-AB4C-886DFFB3F4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A73FBE5-B341-4539-AB4C-886DFFB3F4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D46452A-70AF-4020-A889-FC96EC508941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D46452A-70AF-4020-A889-FC96EC508941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D46452A-70AF-4020-A889-FC96EC508941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D46452A-70AF-4020-A889-FC96EC508941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
