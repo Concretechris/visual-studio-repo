@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submit-Exercise", "Submit-Exercise\Submit-Exercise.csproj", "{FAFB6CBC-B419-4F51-B0BF-D5FCF52F67BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModalWindow Test", "ModalWindow Test\ModalWindow Test.csproj", "{194F2204-69AA-4BF8-9D05-D98D58F782E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FAFB6CBC-B419-4F51-B0BF-D5FCF52F67BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFB6CBC-B419-4F51-B0BF-D5FCF52F67BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFB6CBC-B419-4F51-B0BF-D5FCF52F67BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194F2204-69AA-4BF8-9D05-D98D58F782E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194F2204-69AA-4BF8-9D05-D98D58F782E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194F2204-69AA-4BF8-9D05-D98D58F782E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194F2204-69AA-4BF8-9D05-D98D58F782E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
